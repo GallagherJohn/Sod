@@ -204,9 +204,7 @@
         </div>
     </section>
    
-    Here’s your gallery section reverted back to using 3 photos per transformation (Before → Process → After), with clean formatting, proper nesting, and no duplication issues. I’ve kept the main portfolio grid with your original 6 images, then the Before/After subsection with exactly 3 transformations (Sod, Pressure Washing, Palm Trimming), each showing 3 photos.
-Replace your entire <section id="gallery" ...> block in index.html with this corrected version:
-HTML<!-- Gallery Section -->
+L<!-- Gallery Section -->
 <section id="gallery" class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16" data-aos="fade-up">
@@ -218,24 +216,7 @@ HTML<!-- Gallery Section -->
 
         <!-- Main Portfolio Grid – your 6 after shots -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
-            <div class="rounded-lg overflow-hidden shadow-lg" data-aos="zoom-in">
-                <picture>
-                    <source srcset="https://res.cloudinary.com/dxghmamh0/image/upload/q_auto:good,e_improve/v1767067171/IMG_9916_zpst3p.webp 1200w" type="image/webp">
-                    <img src="https://res.cloudinary.com/dxghmamh0/image/upload/q_auto:good,e_improve/v1767067171/IMG_9916_zpst3p.jpg" alt="Lush Green Lawn in Jacksonville, FL" class="w-full h-80 object-cover hover:scale-105 transition duration-500" loading="lazy">
-                </picture>
-            </div>
-            <div class="rounded-lg overflow-hidden shadow-lg" data-aos="zoom-in" data-aos-delay="100">
-                <picture>
-                    <source srcset="https://res.cloudinary.com/dxghmamh0/image/upload/q_auto:good,e_improve/v1767067155/IMG_9353_wapy5t.webp 1200w" type="image/webp">
-                    <img src="https://res.cloudinary.com/dxghmamh0/image/upload/q_auto:good,e_improve/v1767067155/IMG_9353_wapy5t.jpg" alt="Fresh Sod Backyard in Jacksonville, FL" class="w-full h-80 object-cover hover:scale-105 transition duration-500" loading="lazy">
-                </picture>
-            </div>
-            <div class="rounded-lg overflow-hidden shadow-lg" data-aos="zoom-in" data-aos-delay="200">
-                <picture>
-                    <source srcset="https://res.cloudinary.com/dxghmamh0/image/upload/q_auto:good,f_auto,w_1200/v1758315432/IMG_3818.heic_dxv4cv.webp 1200w" type="image/webp">
-                    <img src="https://res.cloudinary.com/dxghmamh0/image/upload/q_auto:good,f_auto,w_1200/v1758315432/IMG_3818.heic_dxv4cv.jpg" alt="Poolside Green Lawn in Jacksonville, FL" class="w-full h-80 object-cover hover:scale-105 transition duration-500" loading="lazy">
-                </picture>
-            </div>
+            
             <div class="rounded-lg overflow-hidden shadow-lg" data-aos="zoom-in">
                 <picture>
                     <source srcset="https://res.cloudinary.com/dxghmamh0/image/upload/q_auto:good,e_improve/v1767067137/IMG_0666_ygiu9l.webp 1200w" type="image/webp">
@@ -658,6 +639,7 @@ HTML<!-- Gallery Section -->
     </script>
 </body>
 </html>
+
 
 
 
